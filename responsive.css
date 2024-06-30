@@ -1,0 +1,203 @@
+@media only screen and  (max-width:980px)
+{
+    .center-part1 {
+        width: 80%;
+        height: 100%;
+    }
+}
+@media only screen and  (max-width:840px)
+{
+    .center-part1 {
+        width: 100%;
+        height: 100%;
+    }
+    nav h4 {
+        display: none;
+    }
+    .section1bottom{
+        padding: 0px 10px;
+    }
+    .section1bottom img{
+        height: 15px;
+    }
+    .center-part2 img{
+        height: 60%;
+        position: absolute;
+        right: 0;
+    }
+    .center-part1 h1 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 600;
+        line-height: 1.1;
+    }
+    .container{
+       /* flex-direction: column; */
+       width: 100%;
+       /* height: 100%; */
+       margin-top: 30px;
+    }
+    .elem{
+        flex-shrink:0 ;
+        height: 200px;
+        width: 100%;
+        border: 3px solid black;
+        border-radius: 25px;
+        box-shadow: 2px 10px 10px black;
+        padding: 30px;
+        display: flex;
+    }
+    .elem:last-child{
+        display: none;
+    }
+    .section3-container .first-box{
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-box .image-div{
+        /* width: 44%; */
+        height: 50%;
+        align-items: center;
+    }
+    .first-box .content-div{
+        height: 100%;
+        width: 70%;
+    }
+    .first-box .content-div h1{
+        font-size: 35px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #000000ad;
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    nav {
+        padding: 12px;
+    }
+    
+}
+@media only screen and  (max-width:600px){
+    .center {
+        padding:0px 20px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .center-part2 {
+        position: relative;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    
+    .center-part2 img{
+        width: 100%;
+    }
+    .center-part1{
+        margin-top: -100px;
+    }
+
+    .section2 .services{
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .services h3{
+        background-color: #9AE975;
+        font-weight: 500;
+        border: 5px;
+        font-size: 26px;
+    }
+    
+    .services p{
+        width: 60%;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 30px;
+    
+    }
+    .container{
+        padding: 15px;
+    }
+    .elem{
+        height: 200px;
+        width: 100%;
+        border: 3px solid black;
+        border-radius: 25px;
+        box-shadow: 2px 10px 10px black;
+        padding: 15px;
+    }
+    .center-part1 button{
+        margin-bottom: 10px;
+    }
+    .section1bottom{
+        padding: 0px 10px;
+        margin-bottom: 30px;
+        display: none;
+    }
+}
+@media only screen and  (max-width:430px){
+    .section1bottom{
+        padding: 0px 10px;
+        margin-bottom: 30px;
+        display: none;
+    }
+
+    .container{
+        padding: 5px;
+        margin-top: 0px;
+    }
+    .elem{
+        height: 160px;
+        width: 100%;
+        border: 3px solid black;
+        border-radius: 25px;
+        box-shadow: 2px 10px 10px black;
+        /* padding: 5px; */
+    }
+    .section3-container .first-box{
+        margin-top: 120px;
+        flex-direction: column;
+    }
+
+    .section4{
+        width: 100%;
+        height: 1350px;
+    }
+    .section4-container{
+        height: 100%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .card-box1{
+        width: 90%;
+        height: 30%;
+        flex-direction: column; 
+    }
+    .card-box2{
+        margin-top: 150px;
+        width: 90%;
+        height: 30%;
+        flex-direction: column; 
+        /* display: none; */
+    }
+    .card-heading{
+        font-size: 35px;
+        font-family: sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .section3-container{
+        margin-top: -100px;
+   
+   }
+
+}
